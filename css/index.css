@@ -1,0 +1,86 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(10, 100%, 100%, 0.7);
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: url('img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
+.lead{
+ text-align: center;
+}
+
+
+.paragraph p{
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 10%;
+ margin-inline-end: 10%;
+ text-align: center;
+ color: black;
+ font-size: 20px;
+ padding: 30px;
+  background-color: blue;
+  background-color:hsla(0,100%,1000%,0.7);
+  margin:30px;
+}
+
+.cardContainer:hover {
+  opacity: 0.5;
+}
+
+
+
+.col-6 img{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded{
+  width: 85%;
+}
+
+h3{
+  text-align: center;
+}
+
+hr{
+  border: 0.7px dashed gray;
+}
+
+.paragraph1{
+/* margin-block-start: 1em;
+ margin-block-end: 1em;*/
+/* margin-inline-start: 10%;
+ margin-inline-end: 10%;*/
+ text-align: center;
+ color: white;
+ font-size: 20px;
+ padding: 30px;
+  background-color:hsla(100,0%,0%,1);
+/*  margin:30px;*/
+}
